@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ana Cakes — Bolos e doces artesanais feitos com carinho para transformar momentos em memórias. Encomendas personalizadas." />
+  <title>Anna Cakes — Confeitaria Artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#inicio" class="header__logo" aria-label="Anna Cakes — página inicial">
+        <span class="logo__symbol">✦</span>
+        <span class="logo__name">Anna <em>Cakes</em></span>
+      </a>
+
+      <nav class="header__nav" id="nav" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#produtos" class="nav__link">Produtos</a></li>
+          <li><a href="#como-funciona" class="nav__link">Encomendas</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda."
+         class="btn btn--header"
+         target="_blank"
+         rel="noopener"
+         aria-label="Fazer encomenda pelo WhatsApp">
+        Fazer encomenda
+      </a>
+
+      <button class="header__burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio" aria-label="Apresentação">
+      <div class="hero__deco hero__deco--1" aria-hidden="true"></div>
+      <div class="hero__deco hero__deco--2" aria-hidden="true"></div>
+      <div class="hero__deco hero__deco--3" aria-hidden="true"></div>
+
+      <!-- Rosa decorativa grande (canto superior esquerdo) -->
+      <div class="hero__rose hero__rose--1" aria-hidden="true">
+        <svg viewBox="0 0 140 185" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M70 74 C50 56 26 52 23 66 C20 80 44 88 70 74Z" fill="#e8c4b8"/>
+          <path d="M70 74 C90 56 114 52 117 66 C120 80 96 88 70 74Z" fill="#e8c4b8"/>
+          <path d="M70 74 C55 52 44 26 58 18 C72 10 78 42 70 74Z" fill="#ddb8aa"/>
+          <path d="M70 74 C85 52 96 26 82 18 C68 10 62 42 70 74Z" fill="#ddb8aa"/>
+          <path d="M70 74 C65 48 60 24 70 16 C80 8 79 46 70 74Z" fill="#d0a494"/>
+          <path d="M70 74 C54 60 50 40 62 33 C74 26 76 52 70 74Z" fill="#c9887a"/>
+          <path d="M70 74 C86 60 90 40 78 33 C66 26 64 52 70 74Z" fill="#c9887a"/>
+          <path d="M70 74 C62 58 61 40 68 35 C75 30 75 54 70 74Z" fill="#be7870"/>
+          <path d="M70 74 C78 58 79 40 72 35 C65 30 65 54 70 74Z" fill="#be7870"/>
+          <ellipse cx="70" cy="70" rx="9" ry="7" fill="#a85e58"/>
+          <ellipse cx="70" cy="69" rx="5" ry="4" fill="#8c4840"/>
+          <path d="M70 81 C70 108 67 132 64 152" stroke="#7a9a6a" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <path d="M68 110 C54 98 36 97 34 106 C32 115 50 122 68 115Z" fill="#8aaa72"/>
+          <path d="M68 110 C55 102 42 102 36 108" stroke="#6a8a58" stroke-width="1" fill="none" opacity="0.5"/>
+          <path d="M65 134 C79 122 97 121 99 130 C101 139 82 146 65 139Z" fill="#8aaa72"/>
+          <path d="M65 134 C78 126 91 126 97 132" stroke="#6a8a58" stroke-width="1" fill="none" opacity="0.5"/>
+        </svg>
+      </div>
+
+      <!-- Raminho dourado (canto inferior direito do conteúdo) -->
+      <div class="hero__rose hero__rose--2" aria-hidden="true">
+        <svg viewBox="0 0 70 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M35 6 C35 38 33 68 31 98" stroke="#c9a96e" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          <path d="M34 26 C24 17 11 17 9 24 C7 31 20 37 34 30Z" fill="#c9a96e"/>
+          <path d="M34 26 C25 19 16 19 12 25" stroke="#e8d5a3" stroke-width="0.7" fill="none" opacity="0.6"/>
+          <path d="M33 52 C43 43 56 43 58 50 C60 57 47 63 33 57Z" fill="#c9a96e"/>
+          <path d="M33 52 C43 46 52 46 56 51" stroke="#e8d5a3" stroke-width="0.7" fill="none" opacity="0.6"/>
+          <path d="M31 76 C21 67 8 67 6 74 C4 81 18 87 31 81Z" fill="#c9a96e" opacity="0.65"/>
+          <circle cx="9" cy="27" r="3.2" fill="#e8d5a3"/>
+          <circle cx="57" cy="53" r="3.2" fill="#e8d5a3"/>
+          <circle cx="6" cy="77" r="2.2" fill="#e8d5a3" opacity="0.8"/>
+        </svg>
+      </div>
+
+      <!-- Faíscas douradas -->
+      <div class="hero__spark hero__spark--1" aria-hidden="true"></div>
+      <div class="hero__spark hero__spark--2" aria-hidden="true"></div>
+      <div class="hero__spark hero__spark--3" aria-hidden="true"></div>
+      <div class="hero__spark hero__spark--4" aria-hidden="true"></div>
+      <div class="hero__spark hero__spark--5" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal-fade">Confeitaria Artesanal</p>
+        <h1 class="hero__title reveal-up">
+          Bolos e doces artesanais feitos para transformar momentos em&nbsp;<em>memórias.</em>
+        </h1>
+        <p class="hero__sub reveal-up reveal-delay-1">
+          Encomende bolos, doces finos e sobremesas personalizados com sabor, beleza e carinho em cada detalhe.
+        </p>
+        <div class="hero__actions reveal-up reveal-delay-2">
+          <a href="#produtos" class="btn btn--primary">Ver cardápio</a>
+          <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda."
+             class="btn btn--ghost"
+             target="_blank"
+             rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Encomendar pelo WhatsApp
+          </a>
+        </div>
+        <div class="hero__badge reveal-fade reveal-delay-3" aria-hidden="true">
+          <span>✦ Feito com amor ✦</span>
+        </div>
+      </div>
+
+      <div class="hero__image reveal-scale" aria-label="Bolo artesanal sofisticado">
+        <div class="hero__img-wrapper">
+          <!-- Substitua src pela imagem real do seu bolo principal -->
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700&q=80"
+               alt="Bolo artesanal decorado com flores e detalhes dourados"
+               loading="eager" />
+          <div class="hero__img-deco" aria-hidden="true"></div>
+        </div>
+        <div class="hero__floating hero__floating--1" aria-hidden="true">
+          <i class="bx bxs-leaf"></i>
+        </div>
+        <div class="hero__floating hero__floating--2" aria-hidden="true">
+          <i class="bx bxs-star"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CATEGORIAS ===== -->
+    <section class="categories" id="categorias" aria-labelledby="cat-title">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-eyebrow">O que fazemos</p>
+          <h2 class="section-title" id="cat-title">Escolha sua categoria</h2>
+          <p class="section-sub">Tudo feito artesanalmente com ingredientes selecionados e muito carinho.</p>
+        </div>
+
+        <div class="categories__grid">
+          <article class="cat-card reveal-up" style="--delay: 0s">
+            <div class="cat-card__icon" aria-hidden="true"><i class="bx bxs-cake"></i></div>
+            <h3 class="cat-card__title">Bolos Personalizados</h3>
+            <p class="cat-card__desc">Criados para cada celebração, com decoração exclusiva e sabores irresistíveis.</p>
+            <a href="#produtos" class="cat-card__link">Ver bolos →</a>
+          </article>
+
+          <article class="cat-card reveal-up" style="--delay: 0.1s">
+            <div class="cat-card__icon" aria-hidden="true"><i class="bx bxs-gift"></i></div>
+            <h3 class="cat-card__title">Doces Finos</h3>
+            <p class="cat-card__desc">Delícias refinadas que encantam o paladar e embelezam qualquer mesa.</p>
+            <a href="#produtos" class="cat-card__link">Ver doces →</a>
+          </article>
+
+          <article class="cat-card reveal-up" style="--delay: 0.2s">
+            <div class="cat-card__icon" aria-hidden="true"><i class="bx bxs-cookie"></i></div>
+            <h3 class="cat-card__title">Brigadeiros Gourmet</h3>
+            <p class="cat-card__desc">Brigadeiros artesanais com coberturas especiais e ingredientes premium.</p>
+            <a href="#produtos" class="cat-card__link">Ver brigadeiros →</a>
+          </article>
+
+          <article class="cat-card reveal-up" style="--delay: 0.3s">
+            <div class="cat-card__icon" aria-hidden="true"><i class="bx bxs-bowl-hot"></i></div>
+            <h3 class="cat-card__title">Sobremesas Especiais</h3>
+            <p class="cat-card__desc">Tortas, mousses e sobremesas criadas para momentos inesquecíveis.</p>
+            <a href="#produtos" class="cat-card__link">Ver sobremesas →</a>
+          </article>
+
+          <article class="cat-card reveal-up" style="--delay: 0.4s">
+            <div class="cat-card__icon" aria-hidden="true"><i class="bx bxs-party"></i></div>
+            <h3 class="cat-card__title">Kits Festa</h3>
+            <p class="cat-card__desc">Combinações completas para festas de aniversário, casamento e eventos.</p>
+            <a href="#produtos" class="cat-card__link">Ver kits →</a>
+          </article>
+
+          <article class="cat-card reveal-up" style="--delay: 0.5s">
+            <div class="cat-card__icon" aria-hidden="true"><i class="bx bx-buildings"></i></div>
+            <h3 class="cat-card__title">Corporativo</h3>
+            <p class="cat-card__desc">Encomendas especiais para empresas, eventos e presentear colaboradores.</p>
+            <a href="#como-funciona" class="cat-card__link">Saiba mais →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUTOS EM DESTAQUE ===== -->
+    <section class="products" id="produtos" aria-labelledby="prod-title">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-eyebrow">Nossos produtos</p>
+          <h2 class="section-title" id="prod-title">Vitrine de destaques</h2>
+          <p class="section-sub">Cada produto é preparado com atenção e amor, do início ao acabamento final.</p>
+        </div>
+
+        <div class="products__grid">
+
+          <article class="prod-card reveal-up" style="--delay: 0s">
+            <div class="prod-card__badge prod-card__badge--top">Mais pedido</div>
+            <div class="prod-card__img">
+              <!-- Substitua pela imagem real -->
+              <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=500&q=80"
+                   alt="Bolo de chocolate belga decorado" loading="lazy" />
+            </div>
+            <div class="prod-card__body">
+              <h3 class="prod-card__name">Bolo de Chocolate Belga</h3>
+              <p class="prod-card__desc">Massa úmida de cacau com ganache de chocolate belga 70%, cobertura aveludada e decoração artesanal.</p>
+              <div class="prod-card__footer">
+                <span class="prod-card__price">A partir de <strong>R$ 120</strong></span>
+                <a href="https://wa.me/5511999999999?text=Quero%20encomendar%20o%20Bolo%20de%20Chocolate%20Belga"
+                   class="btn btn--sm" target="_blank" rel="noopener">Encomendar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="prod-card reveal-up" style="--delay: 0.1s">
+            <div class="prod-card__badge prod-card__badge--new">Novidade</div>
+            <div class="prod-card__img">
+              <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=500&q=80"
+                   alt="Bolo de ninho com Nutella" loading="lazy" />
+            </div>
+            <div class="prod-card__body">
+              <h3 class="prod-card__name">Bolo Ninho com Nutella</h3>
+              <p class="prod-card__desc">Camadas generosas de creme de leite ninho com recheio de Nutella cremosa e cobertura de chocolate branco.</p>
+              <div class="prod-card__footer">
+                <span class="prod-card__price">A partir de <strong>R$ 110</strong></span>
+                <a href="https://wa.me/5511999999999?text=Quero%20encomendar%20o%20Bolo%20Ninho%20com%20Nutella"
+                   class="btn btn--sm" target="_blank" rel="noopener">Encomendar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="prod-card reveal-up" style="--delay: 0.2s">
+            <div class="prod-card__badge prod-card__badge--special">Especial da casa</div>
+            <div class="prod-card__img">
+              <img src="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=500&q=80"
+                   alt="Brigadeiros gourmet variados" loading="lazy" />
+            </div>
+            <div class="prod-card__body">
+              <h3 class="prod-card__name">Brigadeiro Gourmet</h3>
+              <p class="prod-card__desc">Brigadeiros artesanais com chocolate belga, finalizado com pó de ouro e coberturas especiais únicas.</p>
+              <div class="prod-card__footer">
+                <span class="prod-card__price">A partir de <strong>R$ 5</strong> / un</span>
+                <a href="https://wa.me/5511999999999?text=Quero%20encomendar%20Brigadeiros%20Gourmet"
+                   class="btn btn--sm" target="_blank" rel="noopener">Encomendar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="prod-card reveal-up" style="--delay: 0.3s">
+            <div class="prod-card__img">
+              <img src="https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=500&q=80"
+                   alt="Brownie artesanal" loading="lazy" />
+            </div>
+            <div class="prod-card__body">
+              <h3 class="prod-card__name">Brownie Artesanal</h3>
+              <p class="prod-card__desc">Brownie denso e fudgy de chocolate meio amargo com crosta crocante e interior cremoso irresistível.</p>
+              <div class="prod-card__footer">
+                <span class="prod-card__price">A partir de <strong>R$ 8</strong> / un</span>
+                <a href="https://wa.me/5511999999999?text=Quero%20encomendar%20Brownies%20Artesanais"
+                   class="btn btn--sm" target="_blank" rel="noopener">Encomendar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="prod-card reveal-up" style="--delay: 0.4s">
+            <div class="prod-card__badge prod-card__badge--top">Mais pedido</div>
+            <div class="prod-card__img">
+              <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=500&q=80"
+                   alt="Torta de limão siciliano" loading="lazy" />
+            </div>
+            <div class="prod-card__body">
+              <h3 class="prod-card__name">Torta de Limão Siciliano</h3>
+              <p class="prod-card__desc">Base de biscoito amanteigado, creme de limão siciliano azedinho e merengue italiano tostado.</p>
+              <div class="prod-card__footer">
+                <span class="prod-card__price">A partir de <strong>R$ 95</strong></span>
+                <a href="https://wa.me/5511999999999?text=Quero%20encomendar%20a%20Torta%20de%20Limão"
+                   class="btn btn--sm" target="_blank" rel="noopener">Encomendar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="prod-card reveal-up" style="--delay: 0.5s">
+            <div class="prod-card__badge prod-card__badge--new">Novidade</div>
+            <div class="prod-card__img">
+              <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500&q=80"
+                   alt="Kit festa personalizado com bolos e doces" loading="lazy" />
+            </div>
+            <div class="prod-card__body">
+              <h3 class="prod-card__name">Kit Festa Personalizado</h3>
+              <p class="prod-card__desc">Bolo temático + 50 doces finos + 20 brigadeiros gourmet. Decoração exclusiva sob consulta.</p>
+              <div class="prod-card__footer">
+                <span class="prod-card__price">A partir de <strong>R$ 380</strong></span>
+                <a href="https://wa.me/5511999999999?text=Quero%20encomendar%20um%20Kit%20Festa"
+                   class="btn btn--sm" target="_blank" rel="noopener">Encomendar</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMO FUNCIONA ===== -->
+    <section class="how" id="como-funciona" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-eyebrow">Simples e fácil</p>
+          <h2 class="section-title" id="how-title">Como fazer sua encomenda</h2>
+          <p class="section-sub">Em poucos passos, seu doce dos sonhos estará pronto para o grande momento.</p>
+        </div>
+
+        <div class="how__steps">
+          <div class="how__step reveal-up" style="--delay: 0s">
+            <div class="how__step-num" aria-hidden="true">01</div>
+            <div class="how__step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+              </svg>
+            </div>
+            <h3 class="how__step-title">Escolha o produto</h3>
+            <p class="how__step-desc">Navegue pelo cardápio, escolha o produto ideal para o seu momento e anote o que mais chamou atenção.</p>
+          </div>
+
+          <div class="how__connector" aria-hidden="true"></div>
+
+          <div class="how__step reveal-up" style="--delay: 0.15s">
+            <div class="how__step-num" aria-hidden="true">02</div>
+            <div class="how__step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/>
+              </svg>
+            </div>
+            <h3 class="how__step-title">Personalize</h3>
+            <p class="how__step-desc">Defina sabor, tamanho, decoração, tema e qualquer detalhe especial. Cada encomenda é única.</p>
+          </div>
+
+          <div class="how__connector" aria-hidden="true"></div>
+
+          <div class="how__step reveal-up" style="--delay: 0.3s">
+            <div class="how__step-num" aria-hidden="true">03</div>
+            <div class="how__step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+              </svg>
+            </div>
+            <h3 class="how__step-title">Confirme pelo WhatsApp</h3>
+            <p class="how__step-desc">Entre em contato, alinhe os detalhes e confirme a encomenda com data e forma de pagamento.</p>
+          </div>
+
+          <div class="how__connector" aria-hidden="true"></div>
+
+          <div class="how__step reveal-up" style="--delay: 0.45s">
+            <div class="how__step-num" aria-hidden="true">04</div>
+            <div class="how__step-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2zM9 12l2 2 4-4"/>
+              </svg>
+            </div>
+            <h3 class="how__step-title">Receba ou retire</h3>
+            <p class="how__step-desc">No dia combinado, receba em casa ou retire no local com seu pedido pronto e bem embalado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="about" id="sobre" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="about__image reveal-left">
+          <div class="about__img-frame">
+            <!-- Substitua pela sua foto -->
+            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80"
+                 alt="Confeiteira decorando um bolo artesanal" loading="lazy" />
+          </div>
+          <div class="about__img-accent" aria-hidden="true">
+            <span>✦ Artesanal ✦</span>
+          </div>
+        </div>
+
+        <div class="about__content reveal-right">
+          <p class="section-eyebrow">Nossa história</p>
+          <h2 class="section-title" id="about-title">Feito com amor, do início ao acabamento</h2>
+          <p class="about__text">
+            Cada bolo, cada doce e cada detalhe que sai daqui carrega uma história de dedicação. Acreditamos que a confeitaria vai além do sabor — é a emoção de uma festa, o calor de um abraço em forma de bolo.
+          </p>
+          <p class="about__text">
+            Trabalhamos com ingredientes cuidadosamente selecionados, técnicas artesanais refinadas e uma atenção obsessiva aos detalhes. Porque cada ocasião merece algo verdadeiramente especial.
+          </p>
+          <ul class="about__values" aria-label="Nossos valores">
+            <li><i class="bx bx-leaf" aria-hidden="true"></i> Ingredientes selecionados e de qualidade</li>
+            <li><i class="bx bx-shape-circle" aria-hidden="true"></i> Produção artesanal e personalizada</li>
+            <li><i class="bx bx-diamond" aria-hidden="true"></i> Atenção a cada detalhe de acabamento</li>
+            <li><i class="bx bxs-heart" aria-hidden="true"></i> Amor em cada receita preparada</li>
+          </ul>
+          <a href="https://wa.me/5511999999999?text=Olá!%20Quero%20saber%20mais%20sobre%20a%20Ana%20Cakes."
+             class="btn btn--primary" target="_blank" rel="noopener">Conheça nossa história</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DIFERENCIAIS ===== -->
+    <section class="diffs" aria-labelledby="diff-title">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-eyebrow">Por que nos escolher</p>
+          <h2 class="section-title" id="diff-title">Nossos diferenciais</h2>
+        </div>
+
+        <div class="diffs__grid">
+          <div class="diff-item reveal-up" style="--delay: 0s">
+            <div class="diff-item__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </div>
+            <h3>Feito sob encomenda</h3>
+            <p>Cada produto é preparado especialmente para você, garantindo frescor e personalização total.</p>
+          </div>
+
+          <div class="diff-item reveal-up" style="--delay: 0.1s">
+            <div class="diff-item__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+              </svg>
+            </div>
+            <h3>Ingredientes selecionados</h3>
+            <p>Usamos apenas ingredientes de alta qualidade para garantir o melhor sabor e textura em cada mordida.</p>
+          </div>
+
+          <div class="diff-item reveal-up" style="--delay: 0.2s">
+            <div class="diff-item__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                <circle cx="12" cy="12" r="10"/>
+              </svg>
+            </div>
+            <h3>Personalização total</h3>
+            <p>Tema, cores, sabor, tamanho e decoração. Cada detalhe é alinhado com você para ser único.</p>
+          </div>
+
+          <div class="diff-item reveal-up" style="--delay: 0.3s">
+            <div class="diff-item__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h3>Entrega no prazo</h3>
+            <p>Compromisso com o horário combinado. Seu bolo chega pronto para o momento certo.</p>
+          </div>
+
+          <div class="diff-item reveal-up" style="--delay: 0.4s">
+            <div class="diff-item__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+              </svg>
+            </div>
+            <h3>Atendimento pelo WhatsApp</h3>
+            <p>Tire dúvidas, faça ajustes e acompanhe seu pedido diretamente pelo WhatsApp com agilidade.</p>
+          </div>
+
+          <div class="diff-item reveal-up" style="--delay: 0.5s">
+            <div class="diff-item__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+              </svg>
+            </div>
+            <h3>Acabamento premium</h3>
+            <p>Cada produto sai daqui com apresentação de confeitaria de alto padrão. Lindo por dentro e por fora.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERIA ===== -->
+    <section class="gallery" aria-labelledby="gal-title">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-eyebrow">Portfólio</p>
+          <h2 class="section-title" id="gal-title">Momentos que criamos</h2>
+          <p class="section-sub">Uma amostra do que fazemos com amor e dedicação para cada encomenda.</p>
+        </div>
+
+        <div class="gallery__grid">
+          <!-- Substitua pelos links das suas fotos reais -->
+          <div class="gal-item gal-item--lg reveal-up" style="--delay: 0s">
+            <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=700&q=80"
+                 alt="Bolo de casamento decorado com flores naturais" loading="lazy" />
+            <div class="gal-item__overlay"><span>Bolo de casamento</span></div>
+          </div>
+          <div class="gal-item reveal-up" style="--delay: 0.1s">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80"
+                 alt="Bolo de aniversário com flores" loading="lazy" />
+            <div class="gal-item__overlay"><span>Aniversário especial</span></div>
+          </div>
+          <div class="gal-item reveal-up" style="--delay: 0.2s">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=400&q=80"
+                 alt="Cupcakes decorados" loading="lazy" />
+            <div class="gal-item__overlay"><span>Cupcakes artesanais</span></div>
+          </div>
+          <div class="gal-item reveal-up" style="--delay: 0.3s">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&q=80"
+                 alt="Donuts decorados" loading="lazy" />
+            <div class="gal-item__overlay"><span>Doces finos</span></div>
+          </div>
+          <div class="gal-item gal-item--lg reveal-up" style="--delay: 0.4s">
+            <img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?w=700&q=80"
+                 alt="Mesa de doces para evento" loading="lazy" />
+            <div class="gal-item__overlay"><span>Mesa de doces</span></div>
+          </div>
+          <div class="gal-item reveal-up" style="--delay: 0.5s">
+            <img src="https://images.unsplash.com/photo-1542124948-dc391252a940?w=400&q=80"
+                 alt="Macarons coloridos" loading="lazy" />
+            <div class="gal-item__overlay"><span>Macarons gourmet</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="testimonials" id="depoimentos" aria-labelledby="test-title">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-eyebrow">O que dizem</p>
+          <h2 class="section-title" id="test-title">Clientes que amam</h2>
+          <p class="section-sub">A alegria de quem recebe é a maior recompensa do nosso trabalho.</p>
+        </div>
+
+        <div class="testimonials__grid">
+          <blockquote class="test-card reveal-up" style="--delay: 0s">
+            <div class="test-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p>"O bolo ficou absolutamente perfeito e delicioso. Superou todas as minhas expectativas. Minha filha amou cada detalhe da decoração!"</p>
+            <footer class="test-card__author">
+              <div class="test-card__avatar" aria-hidden="true">M</div>
+              <div>
+                <cite class="test-card__name">Marina Oliveira</cite>
+                <span class="test-card__event">Aniversário de 7 anos</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="test-card reveal-up" style="--delay: 0.15s">
+            <div class="test-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p>"Os doces foram o absoluto destaque da festa de casamento. Todos os convidados pediram o contato da confeiteira. Trabalho impecável!"</p>
+            <footer class="test-card__author">
+              <div class="test-card__avatar" aria-hidden="true">C</div>
+              <div>
+                <cite class="test-card__name">Carolina e Rafael</cite>
+                <span class="test-card__event">Casamento</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="test-card reveal-up" style="--delay: 0.3s">
+            <div class="test-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p>"Atendimento impecável, entrega no prazo combinado e o bolo mais gostoso que já comi. Com certeza vou encomendar novamente!"</p>
+            <footer class="test-card__author">
+              <div class="test-card__avatar" aria-hidden="true">L</div>
+              <div>
+                <cite class="test-card__name">Lucas Ferreira</cite>
+                <span class="test-card__event">Aniversário corporativo</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="test-card reveal-up" style="--delay: 0.45s">
+            <div class="test-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p>"A apresentação era tão linda que quase deu pena de cortar! Os brigadeiros gourmet sumiram em minutos. Muito obrigada pelo carinho!"</p>
+            <footer class="test-card__author">
+              <div class="test-card__avatar" aria-hidden="true">A</div>
+              <div>
+                <cite class="test-card__name">Amanda Costa</cite>
+                <span class="test-card__event">Chá de bebê</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="cta" id="contato" aria-labelledby="cta-title">
+      <div class="cta__deco cta__deco--1" aria-hidden="true"></div>
+      <div class="cta__deco cta__deco--2" aria-hidden="true"></div>
+      <div class="cta__rose cta__rose--1" aria-hidden="true">
+        <svg viewBox="0 0 120 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 64 C44 48 22 44 19 57 C16 70 40 78 60 64Z" fill="white" opacity="0.06"/>
+          <path d="M60 64 C76 48 98 44 101 57 C104 70 80 78 60 64Z" fill="white" opacity="0.06"/>
+          <path d="M60 64 C46 44 36 20 50 12 C64 4 68 38 60 64Z" fill="white" opacity="0.09"/>
+          <path d="M60 64 C74 44 84 20 70 12 C56 4 52 38 60 64Z" fill="white" opacity="0.09"/>
+          <path d="M60 64 C54 44 52 22 60 14 C68 6 68 42 60 64Z" fill="white" opacity="0.1"/>
+          <path d="M60 64 C46 52 44 36 54 30 C64 24 64 48 60 64Z" fill="white" opacity="0.11"/>
+          <path d="M60 64 C74 52 76 36 66 30 C56 24 56 48 60 64Z" fill="white" opacity="0.11"/>
+          <ellipse cx="60" cy="61" rx="8" ry="6" fill="white" opacity="0.13"/>
+          <path d="M60 70 C60 92 57 110 54 128" stroke="white" stroke-width="1.5" fill="none" opacity="0.07"/>
+          <path d="M58 95 C48 86 34 86 32 93 C30 100 44 106 58 99Z" fill="white" opacity="0.06"/>
+          <path d="M56 115 C66 106 80 106 82 113 C84 120 70 126 56 119Z" fill="white" opacity="0.06"/>
+        </svg>
+      </div>
+      <div class="cta__rose cta__rose--2" aria-hidden="true">
+        <svg viewBox="0 0 80 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 8 C40 35 38 62 36 88" stroke="#c9a96e" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.3"/>
+          <path d="M39 27 C30 19 18 19 16 26 C14 33 26 39 39 32Z" fill="#c9a96e" opacity="0.22"/>
+          <path d="M38 50 C48 42 60 42 62 49 C64 56 52 62 38 55Z" fill="#c9a96e" opacity="0.22"/>
+          <path d="M37 73 C27 65 14 65 12 72 C10 79 23 85 37 78Z" fill="#c9a96e" opacity="0.16"/>
+          <circle cx="16" cy="29" r="3" fill="#e8d5a3" opacity="0.35"/>
+          <circle cx="61" cy="52" r="3" fill="#e8d5a3" opacity="0.35"/>
+        </svg>
+      </div>
+      <div class="container cta__inner">
+        <p class="section-eyebrow reveal-fade" style="color: var(--color-gold)">Pronta para adoçar seu dia?</p>
+        <h2 class="cta__title reveal-up" id="cta-title">
+          Pronto para encomendar doces <em>inesquecíveis?</em>
+        </h2>
+        <p class="cta__sub reveal-up reveal-delay-1">
+          Fale conosco pelo WhatsApp e monte sua encomenda personalizada. Respondemos rapidinho!
+        </p>
+        <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda%20especial."
+           class="btn btn--cta reveal-up reveal-delay-2"
+           target="_blank"
+           rel="noopener"
+           aria-label="Fazer encomenda pelo WhatsApp">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Fazer encomenda agora
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Rodapé">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="header__logo" aria-label="Anna Cakes — início">
+          <span class="logo__symbol">✦</span>
+          <span class="logo__name">Ana <em>Cakes</em></span>
+        </a>
+        <p class="footer__tagline">Doces que transformam momentos em memórias.</p>
+        <div class="footer__socials">
+          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+          </a>
+          <a href="https://instagram.com/anacakes" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__links" aria-label="Links rápidos">
+        <h4 class="footer__links-title">Links rápidos</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__info">
+        <h4 class="footer__links-title">Informações</h4>
+        <ul class="footer__info-list">
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+            </svg>
+            <!-- Substitua pelo seu número real -->
+            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener">(11) 99999-9999</a>
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12,6 12,12 16,14"/>
+            </svg>
+            <!-- Substitua pelo seu horário real -->
+            Seg–Sex: 9h às 18h &nbsp;|&nbsp; Sáb: 9h às 14h
+          </li>
+          <li>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <!-- Substitua pelo seu endereço real (ou remova se não houver) -->
+            São Paulo, SP
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> Anna Cakes. Todos os direitos reservados.</p>
+      <p>Feito com <i class="bx bxs-heart" aria-label="amor"></i> e muito açúcar.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp float button -->
+  <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener"
+     aria-label="Falar pelo WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
